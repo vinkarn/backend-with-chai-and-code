@@ -80,3 +80,5 @@ In a nutshell all the formatting related things can be defined in this file.
    in this file, we define which files should not be formatted by prettier.
 
 the wierd syntax of .env files or the vscode setting files should be mentioned in it, along with other files of your choise.
+
+-------video ends , move to the next node Notes2.md file-------
