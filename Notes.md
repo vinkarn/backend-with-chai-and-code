@@ -52,3 +52,31 @@ As of now , install dev dependency using command npm install -D nodemon
 18. as we are using the dev dependencies of the nodemon, we have to use require syntax for the dot env file,
     just seach it in the nodemon website
     more on this later on
+
+Day 2:
+
+1. make folders inside teh src folder only, using mkdir controllers db middlewares models routes utils
+
+Controllers have the functionality, db will have how to connect to database, no matter what is the database, database logic is writtn in here
+
+Middlewares are codes that executes in between the server and the client are called middlewares. They are usually for checking what is files or request while a request is made to the server.
+During an request, we can ask for the cokkies to verify the request and the data passing through.
+
+Utils are utilities of the system, like file upload is utility, it is seen for both photos videos etc, so it is good to create an utility for the same.
+Same can be done for sending mail or like taking tokens etcs,
+So the things or functionality that will repeat is kept in a single folder and it is called utility
+
+2. install prettier's dev dependency using npm install -D prettier,
+   we will be using this to define spacing and other formatting thing so that when mulitple people are working on same project and if all the diffrent system on which people are working have diff. configuration of formatting it will arrise collisions while deploying the creating pull or push requests.
+
+So, the formatting is usually decided by the project manager for the project,and it remain same throughout the project for each and every system.
+
+It is defined in .prettierrc file
+
+we can define the tabwidth, we want semi colons or not, want singlequote or not, etc etc.
+In a nutshell all the formatting related things can be defined in this file.
+
+3. similar to gitignore we have prettier ignore,
+   in this file, we define which files should not be formatted by prettier.
+
+the wierd syntax of .env files or the vscode setting files should be mentioned in it, along with other files of your choise.
