@@ -55,6 +55,16 @@ this is our first approach.
 9. Now we will see our next approach.
    It is nothing, just abit more professional apporoach, we will crete a function inside the db/connection/or some other folder of our liking, and we will import this in to our main index.js file
 
-10. Inside you db folder in src, create a index.js file.
+Day 3: 10. Inside your db folder in src, create a index.js file.
 
-11. import mongoose in it
+11. import mongoose in it.
+
+12. write the code and dont forget to add async and await
+
+13. also keep it in try catch, and at last export it.
+
+14. if your password or username in the mongo db url have @ or # replace it with %40 or %23 as it is needed to be encoded in order to make the correct url
+
+15. when ever a change is made into the env file, we have to restart the whole server back using npm run dev, as nodemon wont be able to do anything in that grounds
+
+16. use your language in try catch block in order to
